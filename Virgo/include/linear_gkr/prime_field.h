@@ -276,6 +276,7 @@ namespace prime_field
     const int __max_order = 62;
     field_element get_root_of_unity(int order); //return a root of unity with order 2^[order]
     field_element random_real_only();
+    field_element random();
     field_element fast_pow(field_element x, __uint128_t p);
     field_element inv(field_element x);
     double self_speed_test_mult(int repeat);
