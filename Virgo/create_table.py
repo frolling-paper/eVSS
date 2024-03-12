@@ -6,7 +6,7 @@ v_time = []
 proof_size = []
 N = 21
 
-for i in range(10, N):
+for i in range(12, N):
 
     os.system('./bfc ' + str(i + 1) + ' ' + str(i))
     print('Testing for N = ' + str(2**i))
